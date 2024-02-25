@@ -517,7 +517,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23915313, y: 0.36962083, z: -0.09896013, w: 0.8924086}
-  m_LocalPosition: {x: -6.549113, y: 5.000001, z: -7.435302}
+  m_LocalPosition: {x: -7.1700377, y: 7.180527, z: -7.349245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -623,7 +623,7 @@ Transform:
   m_GameObject: {fileID: 1065021501}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23915313, y: 0.36962083, z: -0.09896013, w: 0.8924086}
-  m_LocalPosition: {x: -6.549113, y: 5.000001, z: -7.435302}
+  m_LocalPosition: {x: -7.1700377, y: 7.180527, z: -7.349245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -745,9 +745,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1459568737}
   - component: {fileID: 1459568736}
-  - component: {fileID: 1459568740}
   - component: {fileID: 1459568739}
   - component: {fileID: 1459568738}
+  - component: {fileID: 1459568740}
   m_Layer: 0
   m_Name: Kenney_Male_Adventurer_Papered_0
   m_TagString: Untagged
@@ -796,12 +796,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -353080403629206956, guid: f2637a8919d23164c80fc73670984544, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6b8172ecc9f7bc84691f754e1671534b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.92, y: 2.56}
+  m_Size: {x: 20.48, y: 20.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -816,9 +816,9 @@ Transform:
   m_GameObject: {fileID: 1459568735}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23911765, y: 0.3696438, z: -0.09904577, w: 0.89239913}
-  m_LocalPosition: {x: -0.4253888, y: 0, z: -1.3115773}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -2.079, y: -0.35, z: -2.259}
+  m_LocalScale: {x: 0.16245829, y: 0.16245829, z: 0.16245829}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 30, y: 45, z: 0}
@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0e640832342404dbc340f58d868160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 8
 --- !u!114 &1459568739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -900,10 +900,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.7582284
-  m_Height: 2.4519072
+  m_Radius: 4.7680235
+  m_Height: 20.479998
   m_Direction: 1
-  m_Center: {x: -0.025998285, y: 1.2259511, z: 0.17576504}
+  m_Center: {x: -0.7733463, y: 10.239999, z: 3.3507664}
 --- !u!1 &1872758240
 GameObject:
   m_ObjectHideFlags: 3
@@ -970,7 +970,7 @@ MonoBehaviour:
   m_ZDamping: 1
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
-  m_ScreenY: 0.5
+  m_ScreenY: 0.8
   m_CameraDistance: 10
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
