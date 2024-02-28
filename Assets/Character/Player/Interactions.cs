@@ -29,7 +29,7 @@ public class Interactions : MonoBehaviour
         //Raycast
         if (!Physics.Raycast(transform.position + (Vector3.up * 0.3f) + (_transform.forward * 0.2f), transform.forward, out var hit, 1.5f, interactableLayer)) return;
 
-        if (!hit.transform.TryGetComponent(out InteractableObject interactable)) return;
+        if (!hit.transform.TryGetComponent(out SwitchInteractable interactable)) return;
         interactable.Interact();
         Debug.Log("Interact");
     }
