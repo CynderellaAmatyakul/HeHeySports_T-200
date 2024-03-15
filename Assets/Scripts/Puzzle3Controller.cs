@@ -24,9 +24,10 @@ public class Puzzle3Controller : MonoBehaviour
             picture[5].rotation.z == 0 &&
             picture[6].rotation.z == 0)
         {
+            Debug.Log("Win");
+
             GameDataBase.puzzle3 = true;
             GameDataBase.puzzle3Won = true;
-            SceneManager.LoadScene("Summary");
         }
     }
 }

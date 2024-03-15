@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,6 +24,11 @@ public class GameManager : MonoBehaviour
         if (GameDataBase.puzzle2Won)
         {
             Keys[1].SetActive(true);
+        }
+
+        if (GameDataBase.puzzle3Won)
+        {
+            SceneManager.LoadScene("Summary");
         }
     }
 }
