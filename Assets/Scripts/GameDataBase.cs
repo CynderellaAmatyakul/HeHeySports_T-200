@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class CountDownTimer
+public class GameDataBase
 {
     //[SerializeField] TextMeshProUGUI timeText;
     public static float remainingTime = 600f;
+    public static bool puzzle1 = false;
+    public static bool puzzle1Won = false;
 
     //private void Update()
     //{

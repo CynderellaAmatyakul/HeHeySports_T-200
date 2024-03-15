@@ -6,6 +6,9 @@ public class TouchRotation : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        transform.Rotate(0f, 0f, 90f);
+        if (!GameDataBase.puzzle1)
+        {
+            transform.Rotate(0f, 0f, 90f);
+        }
     }
 }
