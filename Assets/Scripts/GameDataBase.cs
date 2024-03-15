@@ -11,6 +11,8 @@ public class GameDataBase
     public static bool puzzle1Won = false;
     public static bool puzzle2 = false;
     public static bool puzzle2Won = false;
+    public static bool puzzle3 = false;
+    public static bool puzzle3Won = false;
 
     //private void Update()
     //{

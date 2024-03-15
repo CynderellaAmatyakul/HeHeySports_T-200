@@ -18,7 +18,7 @@ public class Puzzle2Controller : MonoBehaviour
     void Start()
     {
         GameDataBase.puzzle2 = false;
-        if (GameDataBase.puzzle1Won)
+        if (GameDataBase.puzzle2Won)
         {
             winText.SetActive(true);
         }
