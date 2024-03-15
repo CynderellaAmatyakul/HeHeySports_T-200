@@ -9,6 +9,8 @@ public class GameDataBase
     public static float remainingTime = 600f;
     public static bool puzzle1 = false;
     public static bool puzzle1Won = false;
+    public static bool puzzle2 = false;
+    public static bool puzzle2Won = false;
 
     //private void Update()
     //{

@@ -853,19 +853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _stopInteract:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1992457546}
-        m_TargetAssemblyTypeName: PuzzleManagment, Assembly-CSharp
-        m_MethodName: GoToMain
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _onInteract:
     m_PersistentCalls:
       m_Calls:
@@ -1367,7 +1355,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-  m_Intensity: 0.25
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2217,6 +2205,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 111757452}
     m_Modifications:
+    - target: {fileID: 1641892798892640, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
+      propertyPath: m_Name
+      value: crypt_roof_pillar_Puzzle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1641892798892640, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4028678988923622, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -2252,7 +2248,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1641892798892640, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2122307529}
+    - targetCorrespondingSourceObject: {fileID: 1641892798892640, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2122307528}
   m_SourcePrefab: {fileID: 100100000, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
 --- !u!1 &1145582713
 GameObject:
@@ -2268,7 +2270,7 @@ GameObject:
   - component: {fileID: 1145582715}
   - component: {fileID: 1145582714}
   m_Layer: 6
-  m_Name: Door
+  m_Name: Door_Puzzle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2288,25 +2290,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _stopInteract:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1992457546}
-        m_TargetAssemblyTypeName: PuzzleManagment, Assembly-CSharp
-        m_MethodName: GoToMain
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _onInteract:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1992457546}
         m_TargetAssemblyTypeName: PuzzleManagment, Assembly-CSharp
-        m_MethodName: GoToPuz1
+        m_MethodName: GoToPuz3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3332,7 +3322,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1848919295769960, guid: 222dc4e090943b240b9a0d017908d3f1, type: 3}
       propertyPath: m_Name
-      value: crypt_sarcophagi
+      value: crypt_sarcophagi_Puzzle1
       objectReference: {fileID: 0}
     - target: {fileID: 1848919295769960, guid: 222dc4e090943b240b9a0d017908d3f1, type: 3}
       propertyPath: m_Layer
@@ -3447,6 +3437,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 615688eb22692db418c6f8646a5b507c, type: 3}
+--- !u!1 &1564432268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1641892798892640, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
+  m_PrefabInstance: {fileID: 1086301036}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1613344883 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4028678988923622, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
@@ -4208,6 +4203,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4028678988923622, guid: 88e9169a6e1a34d43a3188cf129af93a, type: 3}
   m_PrefabInstance: {fileID: 1086301036}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2122307528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564432268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c660077717d10d246ba087e15e6d7aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stopInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  _onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1992457546}
+        m_TargetAssemblyTypeName: PuzzleManagment, Assembly-CSharp
+        m_MethodName: GoToPuz2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &2122307529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564432268}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3996172, y: 4.778644, z: 1.4918213}
+  m_Center: {x: 0.002583027, y: 1.2299278, z: 0.07363033}
 --- !u!4 &2147261249 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4080719392071276, guid: 615688eb22692db418c6f8646a5b507c, type: 3}
