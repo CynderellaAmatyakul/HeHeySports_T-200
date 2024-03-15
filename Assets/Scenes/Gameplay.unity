@@ -1041,11 +1041,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 536883860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b02478ee6653e9949bf878bda8f27e7c, type: 3}
+  m_Script: {fileID: 11500000, guid: af71b863b8223544d982093a3776de18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeText: {fileID: 1649547566}
-  remainingTime: 600
 --- !u!1 &567266519
 GameObject:
   m_ObjectHideFlags: 0
