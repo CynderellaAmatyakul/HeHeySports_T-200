@@ -24,7 +24,9 @@ public class TimerHolder : MonoBehaviour
 
         if (GameDataBase.remainingTime <= 0)
         {
-            Debug.Log("Game Over");
+            GameDataBase.remainingTime = 0;
+            GameDataBase.gameOver = true;
+            SceneManager.LoadScene("Summary");
         }
     }
 }
