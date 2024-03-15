@@ -6,13 +6,17 @@ using UnityEngine;
 public class GameDataBase
 {
     //[SerializeField] TextMeshProUGUI timeText;
+    public static float time = 600f;
     public static float remainingTime = 600f;
+
     public static bool puzzle1 = false;
     public static bool puzzle1Won = false;
     public static bool puzzle2 = false;
     public static bool puzzle2Won = false;
     public static bool puzzle3 = false;
     public static bool puzzle3Won = false;
+
+    public static bool gameOver = false;
 
     //private void Update()
     //{
