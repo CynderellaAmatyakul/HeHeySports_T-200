@@ -1,0 +1,7 @@
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.32 0.32 0.32
+Tf 0.63 0.63 0.63
+map_Kd IMG_3515.JPG
+Ni 1.00
