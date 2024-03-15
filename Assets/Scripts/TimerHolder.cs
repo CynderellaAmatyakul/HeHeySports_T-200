@@ -17,12 +17,12 @@ public class TimerHolder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CountDownTimer.remainingTime -= Time.deltaTime;
-        int minutes = Mathf.FloorToInt(CountDownTimer.remainingTime / 60);
-        int seconds = Mathf.FloorToInt(CountDownTimer.remainingTime % 60);
+        GameDataBase.remainingTime -= Time.deltaTime;
+        int minutes = Mathf.FloorToInt(GameDataBase.remainingTime / 60);
+        int seconds = Mathf.FloorToInt(GameDataBase.remainingTime % 60);
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-        if (CountDownTimer.remainingTime <= 0)
+        if (GameDataBase.remainingTime <= 0)
         {
             Debug.Log("Game Over");
         }
