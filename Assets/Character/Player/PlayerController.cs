@@ -10,10 +10,17 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 move;
 
+    public Animator animator;
+
     // Update is called once per frame
     void Update()
     {
         movePlayer();
+
+        animator.SetFloat("move.x", move.x);
+        animator.SetFloat("move.y", move.y);
+        animator.SetFloat("speed", speed);
+
     }
 
     public void OnMove(InputAction.CallbackContext context)
