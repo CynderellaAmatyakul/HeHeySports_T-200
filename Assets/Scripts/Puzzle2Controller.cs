@@ -4,7 +4,6 @@ using System.Globalization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class Puzzle2Controller : MonoBehaviour
 {
