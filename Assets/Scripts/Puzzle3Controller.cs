@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Puzzle3Controller : MonoBehaviour
 {
-    [SerializeField] private Transform[] picture;
+    [SerializeField] public Transform[] picture;
 
     // Start is called before the first frame update
     void Start()
@@ -13,7 +13,7 @@ public class Puzzle3Controller : MonoBehaviour
         GameDataBase.puzzle3 = false;
     }
 
-    // Update is called once per frame
+    //Update is called once per frame
     void Update()
     {
         if (picture[0].rotation.z == 0 &&
