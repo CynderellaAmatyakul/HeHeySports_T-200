@@ -24,4 +24,9 @@ public class PuzzleManagment : MonoBehaviour
     {
         SceneManager.LoadScene("Puzzle3");
     }
+
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene("Mainmenu");
+    }
 }
