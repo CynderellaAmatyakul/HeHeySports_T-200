@@ -10,6 +10,11 @@ public class PuzzleManagment : MonoBehaviour
         SceneManager.LoadScene("Gameplay");
     }
 
+    public void GoToTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
     public void GoToPuz1()
     {
         SceneManager.LoadScene("Puzzle1");

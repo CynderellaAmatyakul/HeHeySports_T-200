@@ -15,6 +15,8 @@ public class GameDataBase
     public static bool puzzle2Won = false;
     public static bool puzzle3 = false;
     public static bool puzzle3Won = false;
+    public static bool tutorial = false;
+    public static bool tutorialWon = false;
 
     public static bool gameOver = false;
 
